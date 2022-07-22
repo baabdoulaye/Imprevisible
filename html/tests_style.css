@@ -40,7 +40,7 @@
   left: 3.5%;
   top: 5%;
 }
-#titre_logo {
+/* #titre_logo {
   text-decoration: none;
   font-size: 16.5px;
   color: #d3cd98;
@@ -52,7 +52,7 @@
   position: absolute;
   top: 24%;
   left: 64%;
-}
+} */
 h1 {
   position: relative;
   font-size: 60px;
@@ -69,124 +69,57 @@ h1 {
 }
 #video1 {
   width: 50%;
-  float: inline-start;
+  margin-right: 26%;
+  border-radius: 50%;
+  /* float: inline-start; */
 }
-* {
-  box-sizing: border-box;
-}
-#p_bisection {
-  margin-top: 76px;
-  margin-left: 750px;
+.div_p_bisection {
+  /* padding-right: 5%;
+  padding-left: 50%; */
+  text-align: right;
   color: rgb(255, 255, 255);
-  position: absolute;
+  position: relative;
   font-size: 15px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
 }
+
 #h2_bisection {
   color: rgb(231, 228, 212);
-  position: absolute;
+  position: relative;
   font-family: "fredoka one", cursive;
   font-size: 23px;
+  text-align: center;
 }
-#hey2 {
-  display: flex;
-  justify-content: center;
+#p_bisection {
+  padding-top: 0px;
+  text-align: center;
+  padding-right: 0px;
 }
 
 #rdr2 {
   width: 50%;
+  border-radius: 50%;
+  margin-right: 26%;
 }
 #ufc {
-  width: 52%;
+  width: 50%;
+  border-radius: 50%;
+  margin-right: 26%;
 }
 #thlou {
   width: 50%;
+  border-radius: 50%;
+  margin-right: 26%;
 }
 #hero {
   width: 50%;
+  border-radius: 50%;
+  margin-right: 26%;
 }
 #fifa {
   width: 50%;
-}
-#div_separation {
-  width: 100%;
-  left: 0%;
-  opacity: 1;
-  position: absolute;
-  background-repeat: no-repeat;
-  top: 206.5%;
-  background-size: cover;
-  height: 18%;
-  background-image: url("couleur-violet2.jpg");
-  overflow: hidden;
-}
-#logo3 {
-  /*position: relative; */
-  width: 800px;
-  margin-top: 0px;
-  opacity: 0.3;
-  margin-left: 950px;
-  margin-top: -100px;
-}
-#div_separation2 {
-  width: 100%;
-  left: 0%;
-  opacity: 1;
-  position: absolute;
-  background-repeat: no-repeat;
-  top: 283.5%;
-  background-size: cover;
-  height: 18%;
-  background-image: url("couleur-violet2.jpg");
-  overflow: hidden;
-}
-#div_separation3 {
-  width: 100%;
-  left: 0%;
-  opacity: 1;
-  position: absolute;
-  background-repeat: no-repeat;
-  top: 437.7%;
-  background-size: cover;
-  height: 18%;
-  background-image: url("couleur-violet2.jpg");
-  overflow: hidden;
-}
-#div_separation4 {
-  width: 100%;
-  left: 0%;
-  opacity: 1;
-  position: absolute;
-  background-repeat: no-repeat;
-  top: 591.9%;
-  background-size: cover;
-  height: 18%;
-  background-image: url("couleur-violet2.jpg");
-  overflow: hidden;
-}
-#div_separation5 {
-  width: 100%;
-  left: 0%;
-  opacity: 1;
-  position: absolute;
-  background-repeat: no-repeat;
-  top: 360.6%;
-  background-size: cover;
-  height: 18%;
-  background-image: url("couleur-violet2.jpg");
-  overflow: hidden;
-}
-#div_separation6 {
-  width: 100%;
-  left: 0%;
-  opacity: 1;
-  position: absolute;
-  background-repeat: no-repeat;
-  top: 514.8%;
-  background-size: cover;
-  height: 18%;
-  background-image: url("couleur-violet2.jpg");
-  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 26%;
 }
 
 /* ----------------------FOOTER----------------------- */
@@ -293,14 +226,17 @@ footer p {
   text-align: center;
 }
 /*------------------bouton---------------------------------*/
+.classbouton {
+  display: flex;
+  justify-content: center;
+}
 .bn632-hover {
   width: 220px;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-  margin-left: 40.4%;
-  height: 55px;
+  height: 50px;
   text-align: center;
   border: none;
   background-size: 300% 100%;
@@ -364,13 +300,43 @@ footer p {
     width: 13%;
   }
 }
+@media screen and (max-width: 800px) {
+  .bn632-hover {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #pbutton {
+    font-size: 10px;
+  }
+}
 @media screen and (min-width: 835px) {
   #logo {
     visibility: hidden;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   #h2_bisection {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #h2_bisection {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #h2_2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #p_bisection {
+    font-size: 10px;
   }
 }

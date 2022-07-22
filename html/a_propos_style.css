@@ -40,7 +40,7 @@
   left: 3.5%;
   top: 5%;
 }
-#titre_logo {
+/* #titre_logo {
   text-decoration: none;
   font-size: 16.5px;
   color: #d3cd98;
@@ -52,9 +52,8 @@
   position: absolute;
   top: 24%;
   left: 64%;
-}
+} */
 h1 {
-  position: relative;
   font-size: 70px;
   font-weight: 100;
   color: rgb(233, 228, 200);
@@ -68,69 +67,63 @@ h1 {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
   color: rgb(255, 255, 255);
-  position: absolute;
-  left: 22.5%;
   font-size: 108%;
 }
 /*-----------------------------------------HEADER------------------------------------------------------*/
-
+/* 
 #tlou {
-  position: absolute;
-  left: 0%;
+  position: relative;
   width: 100%;
+  /* left: 0%;
   height: 110%;
-  opacity: 0.8;
   top: 18%;
-}
+} */
 #P_1 {
   color: rgb(255, 255, 255);
   position: relative;
   text-align: center;
   top: 230px;
-  font-size: 20px;
+  font-size: 100%;
   font-family: "fredoka one", cursive;
   opacity: 0.9;
 }
 #horizon {
-  position: relative;
-  left: 0%;
   width: 100%;
-  height: 110%;
-  opacity: 0.9;
-  top: 128%;
+  opacity: 1;
 }
 #P_2 {
   color: rgb(255, 255, 255);
   position: relative;
   text-align: center;
   top: 300px;
-  font-size: 20px;
+  font-size: 100%;
   font-family: "fredoka one", cursive;
   opacity: 0.9;
 }
 #P_3 {
   color: rgb(231, 211, 98);
-  position: absolute;
-  top: 860px;
-  left: 10%;
   font-size: 80px;
+  text-align: center;
   font-family: "fredoka one", cursive;
   opacity: 0.9;
 }
 #P_4 {
   color: rgb(0, 0, 0);
-  position: absolute;
-  top: 1011px;
-  left: 90.7%;
-  font-size: 15px;
+  width: 100%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  opacity: 0.9;
+  position: absolute;
 }
 #logo3 {
-  width: 14%;
+  width: 13%;
   position: absolute;
-  right: 90%;
-  top: 1620px;
+  padding-top: 47%;
+  opacity: 0.5;
+}
+#divapropos {
+  background-image: url("The\ last\ of\ us\ wallpaper.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  height: 750px;
 }
 /* -------------------------------LE FOOTER COMMENCE ICI */
 .col_white_amrc {
@@ -248,6 +241,7 @@ footer p {
     width: 50%;
   }
 }
+
 @media screen and (max-width: 835px) {
   #logo {
     width: 13%;
@@ -256,5 +250,43 @@ footer p {
 @media screen and (min-width: 835px) {
   #logo {
     visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 2000px) {
+  #P_3 {
+    font-size: 400%;
+  }
+}
+@media screen and (max-width: 900px) {
+  #P_3 {
+    font-size: 170%;
+  }
+}
+@media screen and (max-width: 610px) {
+  #P_1 {
+    font-size: 80%;
+  }
+  #P_2 {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 410px) {
+  #P_1 {
+    font-size: 60%;
+  }
+  #P_2 {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #P_4 {
+    font-size: 70%;
   }
 }

@@ -40,19 +40,7 @@
   left: 3.5%;
   top: 5%;
 }
-#titre_logo {
-  margin: 1.5%;
-  text-decoration: none;
-  font-size: 16.5px;
-  color: #d3cd98;
-  font-family: "fredoka one", cursive;
-}
-#logo2 {
-  width: 35px;
-  position: absolute;
-  top: 24%;
-  left: 64%;
-}
+
 h1 {
   position: relative;
   font-size: 60px;
@@ -321,7 +309,12 @@ footer p {
     top: 300px;
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (min-width: 1249px) {
+  #intro2 {
+    top: 400px;
+  }
+}
+@media screen and (max-width: 309px) {
   #intro2 {
     visibility: hidden;
   }
