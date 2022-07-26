@@ -15,3 +15,9 @@ QUE DANS LE CSS DU TEXTE QUON VEUT ECRIRE, ON INSCRIVE "POSITION absolute"
 .(id de l'élément):hover {
   box-shadow: 1px 3px black;
 } -------------- POUR METTRE UN PETIT EFFET DE RELIEF COMME SUR UN BOUTON CLICKABLE---------
+
+------------------------------------------------------------------------
+    <a href="path_to_file" download="proposed_file_name">Download</a> BOUTTON POUR TELECHARGER FICHIER
+----------------------------------------------------------------
+
+A HRFEF # = LIEN POUR REMONTER EN HAUT DE LA PAGE 

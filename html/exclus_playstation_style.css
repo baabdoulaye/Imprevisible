@@ -49,8 +49,6 @@
   color: rgb(255, 250, 230);
   margin-top: 4%;
   text-align: center;
-  /* font-family: sans-serif -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",; */
   font-family: "fredoka one", cursive;
 }
 #intro {
@@ -66,13 +64,7 @@
   background-size: cover;
   background-image: url("playstation-background2.jpg");
 }
-/* #h2_h {
-  color: rgb(0, 0, 0);
-  font-size: 190%;
-  padding-top: 4px;
-  margin-left: 190px;
-  font-family: "fredoka one", cursive;
-} */
+
 #logo2 {
   width: 13%;
   position: relative;
