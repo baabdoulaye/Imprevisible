@@ -1,0 +1,228 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  color: green;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: rgb(160, 153, 52);
+  text-align: center;
+  padding: 1px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 11%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: transparent;
+  opacity: 0.5;
+  color: rgb(219, 208, 145);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: blanchedalmond;
+  color: rgb(0, 0, 0);
+}
+
+#logo {
+  width: 4%;
+  position: absolute;
+  left: 3.5%;
+  top: 5%;
+}
+#titre_logo {
+  text-decoration: none;
+  font-size: 16.5px;
+  color: #d3cd98;
+  margin: 1.5%;
+  font-family: "fredoka one", cursive;
+}
+
+h1 {
+  position: relative;
+  font-size: 60px;
+  font-weight: 100;
+  color: rgb(148, 145, 127);
+  margin-top: 4%;
+  text-align: center;
+  font-family: "fredoka one", cursive;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "fredoka one", cursive;
+  font-weight: 100pc;
+  margin-top: 190px;
+  text-align: center;
+}
+#videos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#intro {
+  text-align: center;
+  position: relative;
+  margin-top: 4%;
+  font-family: cursive;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+#div_multicolor {
+  width: 100%;
+  left: 0%;
+  opacity: 1;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  top: 35%;
+  background-image: url(istockphoto-1164002265-612x612.jpg);
+}
+
+.col_white_amrc {
+  color: #fff;
+}
+footer {
+  width: 100%;
+  background-color: #263238;
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+}
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+footer p {
+  font-size: 13px;
+  color: #ccc;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+.mb10 {
+  padding-bottom: 15px;
+}
+.footer_ul_amrc {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+.footer_ul_amrc li a {
+  color: #ccc;
+}
+.footer_ul_amrc li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.fleft {
+  float: left;
+}
+.padding-right {
+  padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+.footer_ul2_amrc li p {
+  display: table;
+}
+.footer_ul2_amrc li a:hover {
+  text-decoration: none;
+}
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+}
+
+.bottom_border {
+  border-bottom: 1px solid #323f45;
+  padding-bottom: 20px;
+}
+.foote_bottom_ul_amrc {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+.foote_bottom_ul_amrc li {
+  display: inline;
+}
+.foote_bottom_ul_amrc li a {
+  color: #999;
+  margin: 0 12px;
+}
+
+.social_footer_ul {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+}
+.social_footer_ul li {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+.social_footer_ul li a {
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 50%;
+}
+.social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+/* Credit to https://bootsnipp.com/snippets/bxDBA */
+
+@media (max-width: 835px) {
+  .topnav {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 90%;
+  }
+  .topnav a {
+    font-size: 10.5px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 835px) {
+  #logo {
+    width: 13%;
+  }
+}
+@media screen and (min-width: 835px) {
+  #logo {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 421px) {
+  #intro {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 900px) {
+  #videos {
+    width: 90%;
+  }
+}

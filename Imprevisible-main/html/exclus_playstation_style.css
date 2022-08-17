@@ -1,0 +1,666 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  color: green;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: rgb(160, 153, 52);
+  text-align: center;
+  padding: 1px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 11%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: transparent;
+  opacity: 0.5;
+  color: rgb(219, 208, 145);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: blanchedalmond;
+  color: rgb(0, 0, 0);
+}
+
+#logo {
+  width: 4%;
+  position: absolute;
+  left: 3.5%;
+  top: 5%;
+}
+
+#h1_1 {
+  position: relative;
+  font-size: 60px;
+  top: -40px;
+  font-weight: 100;
+  color: rgb(255, 250, 230);
+  margin-top: 4%;
+  text-align: center;
+  font-family: "fredoka one", cursive;
+}
+#intro {
+  color: white;
+  margin-top: 340px;
+  text-align: center;
+  font-size: 100%;
+}
+#div_exclus {
+  width: 100%;
+  opacity: 1;
+  position: relative;
+  background-size: cover;
+  background-image: url("playstation-background2.jpg");
+}
+
+#logo2 {
+  width: 13%;
+  position: relative;
+  opacity: 1;
+}
+#premierh3 {
+  margin-left: 10%;
+  font-family: "fredoka one", cursive;
+  font-weight: 100;
+  font-size: 23px;
+  color: #000000;
+}
+#div1 {
+  background-image: url("Ej5GtpPX0AEPzBf.jpg");
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+#P1 {
+  margin-top: 150px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: rgb(208, 204, 179);
+}
+#hey {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  border-radius: 49%;
+  transition: box-shadow 0.2s;
+  opacity: 1;
+}
+#div2 {
+  text-align: center;
+}
+#hey:hover {
+  box-shadow: 0 0 100000px rgba(194, 12, 226, 0.2);
+  opacity: 0.6;
+}
+
+#div_separation {
+  opacity: 1;
+  background-size: cover;
+  height: 150px;
+  background-image: url("couleur-violet2.jpg");
+  overflow: hidden;
+}
+#logo3 {
+  width: 290px;
+  opacity: 0.3;
+  position: relative;
+}
+#bisection {
+  background-image: url(1200px-Noir_couleur.jpg);
+  /* transition: visibility 0s, opacity 0.5s linear; */
+}
+#video1 {
+  width: 50%;
+  border-radius: 50%;
+  margin-left: 26%;
+}
+#h2_bisection {
+  text-align: center;
+  color: rgb(212, 213, 231);
+  font-family: "fredoka one", cursive;
+  font-size: 23px;
+}
+#p_bisection {
+  color: #d4d2c4;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+#divdes2paragraphes {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+#divimage4 {
+  display: flex;
+  justify-content: center;
+}
+#div_3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("couleur-violet2.jpg");
+}
+#h2_bisection:hover {
+  text-decoration: underline;
+}
+#h2_2 {
+  color: #cec8a5;
+  font-size: 30px;
+  font-family: "fredoka one", cursive;
+  /* margin-left: 35px; */
+  margin-top: 90px;
+  text-align: center;
+}
+#h2_2:hover {
+  text-decoration: underline;
+}
+#P5 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+#P_6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+#image4 {
+  width: 50%;
+  border-radius: 100px;
+}
+
+#div4 {
+  background-image: url(1200px-Noir_couleur.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#h2_3 {
+  color: rgb(255, 255, 255);
+  font-family: "fredoka one", cursive;
+  text-align: center;
+  font-size: 36px;
+}
+#h2_3:hover {
+  text-decoration: underline;
+}
+#p5 {
+  color: white;
+  text-align: center;
+}
+#p6 {
+  color: white;
+  text-align: center;
+}
+#h2_4 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "fredoka one", cursive;
+  font-size: 20px;
+}
+#longuelistejeux {
+  color: white;
+  text-align: center;
+}
+#h1_2 {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  font-family: "fredoka one", cursive;
+}
+#h1_2:hover {
+  text-decoration: underline;
+}
+#h3_articles {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "fredoka one", cursive;
+  font-size: 20px;
+}
+#h3_articles:hover {
+  text-decoration: underline;
+}
+#kena {
+  width: 18%;
+}
+#divkena {
+  text-align: center;
+}
+#description_jeu_article {
+  text-align: center;
+  font-size: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+#description_jeu_article2 {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+
+#prix {
+  text-align: center;
+  color: rgb(0, 110, 173);
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* -----------------------------CAROUSEL---------------------------------------------------------- */
+.container1 {
+  position: relative;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 5000px;
+  /* perspective de 1000px de base */
+}
+.carousel {
+  width: 100%;
+  right: 9px;
+  transform-style: preserve-3d;
+  animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face {
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+span {
+  margin: auto;
+  font-size: 2rem;
+}
+
+.carousel__face:nth-child(1) {
+  background-image: url("The\ last\ of\ us\ wallpaper.jpg");
+  transform: rotateY(0deg) translateZ(430px);
+  border-radius: 7%;
+}
+.carousel__face:nth-child(2) {
+  background-image: url("kratos1.jpg");
+  transform: rotateY(40deg) translateZ(430px);
+  border-radius: 7%;
+}
+.carousel__face:nth-child(3) {
+  background-image: url("unchartedd.jpg");
+  transform: rotateY(80deg) translateZ(430px);
+  border-radius: 7%;
+}
+.carousel__face:nth-child(4) {
+  background-image: url("0761452.jpg");
+  transform: rotateY(120deg) translateZ(430px);
+  border-radius: 7%;
+}
+.carousel__face:nth-child(5) {
+  background-image: url("detroit-become-human-3.jpg");
+  transform: rotateY(160deg) translateZ(430px);
+  border-radius: 7%;
+}
+.carousel__face:nth-child(6) {
+  background-image: url("EGS_Brutalopenworldactionadventuregame_BendStudio_S1-2560x1440-fec2937a1bd5f04f2a6321e4e2a2a2ba.jpg");
+  transform: rotateY(200deg) translateZ(430px);
+  border-radius: 7%;
+}
+.carousel__face:nth-child(7) {
+  background-image: url("wallpapersden.com_jin-sakai-ghost-of-tsushima_3840x2160.jpg");
+  transform: rotateY(240deg) translateZ(430px);
+  border-radius: 7%;
+}
+.carousel__face:nth-child(8) {
+  background-image: url("626931-horizon-forbidden-west-sur-ps4-et-ps5-la-bande-annonce-epique.jpg");
+  transform: rotateY(280deg) translateZ(430px);
+  border-radius: 7%;
+}
+.carousel__face:nth-child(9) {
+  background-image: url("Demons-Souls-PS5-Review-24-pc-games.png");
+  transform: rotateY(320deg) translateZ(430px);
+  border-radius: 7%;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+#titre_jeu_carou {
+  color: white;
+  text-align: center;
+  font-family: "fredoka one", cursive;
+  padding-top: 80px;
+}
+/* -------------BOUTON---------------------------------- */
+.classbouton {
+  display: flex;
+  justify-content: center;
+}
+.bn632-hover {
+  width: 400px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn20 {
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.bn632-hover1 {
+  width: 90px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-left: 2%;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.bn632-hover1:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover1:focus {
+  outline: none;
+}
+.bn632-hover1.bn20 {
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.bn632-hover2 {
+  width: 90px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-left: 2%;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.bn632-hover2:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover2:focus {
+  outline: none;
+}
+.bn632-hover2.bn20 {
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.bn632-hover3 {
+  width: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-left: 2%;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.bn632-hover3:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover3:focus {
+  outline: none;
+}
+.bn632-hover3.bn20 {
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+/* -------------------------------LE FOOTER COMMENCE ICI-------------------------- */
+.col_white_amrc {
+  color: #fff;
+}
+footer {
+  width: 100%;
+  background-color: #263238;
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+}
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+footer p {
+  font-size: 13px;
+  color: #ccc;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+.mb10 {
+  padding-bottom: 15px;
+}
+.footer_ul_amrc {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+.footer_ul_amrc li a {
+  color: #ccc;
+}
+.footer_ul_amrc li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.fleft {
+  float: left;
+}
+.padding-right {
+  padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+.footer_ul2_amrc li p {
+  display: table;
+}
+.footer_ul2_amrc li a:hover {
+  text-decoration: none;
+}
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+}
+
+.bottom_border {
+  border-bottom: 1px solid #323f45;
+  padding-bottom: 20px;
+}
+.foote_bottom_ul_amrc {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+.foote_bottom_ul_amrc li {
+  display: inline;
+}
+.foote_bottom_ul_amrc li a {
+  color: #999;
+  margin: 0 12px;
+}
+
+.social_footer_ul {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+}
+.social_footer_ul li {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+.social_footer_ul li a {
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 50%;
+}
+.social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+/* Credit to https://bootsnipp.com/snippets/bxDBA */
+
+@media (max-width: 835px) {
+  .topnav {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 90%;
+  }
+  .topnav a {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 835px) {
+  #logo {
+    width: 13%;
+  }
+}
+@media screen and (min-width: 835px) {
+  #logo {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 500px) {
+  #h2_h {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #h1_1 {
+    font-size: 20px;
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .carousel {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bn632-hover {
+    width: 200px;
+  }
+}

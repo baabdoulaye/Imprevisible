@@ -1,0 +1,32 @@
+#play_opning {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top ou bottom: 0%;
+  width: 100%;
+}
+POUR METTRE UNE VIDEO EN PLEIN ECRAN
+---------------------------------------------------------------
+POUR ECRIRE PAR DESSUS UNE VIDEO OU UNE IMAGE IL FAUT 
+QUE DANS LE CSS DU TEXTE QUON VEUT ECRIRE, ON INSCRIVE "POSITION absolute"
+-------------------------------------------------------------------------------------------
+
+
+.(id de l'élément):hover {
+  box-shadow: 1px 3px black;
+} -------------- POUR METTRE UN PETIT EFFET DE RELIEF COMME SUR UN BOUTON CLICKABLE---------
+
+------------------------------------------------------------------------
+    <a href="path_to_file" download="proposed_file_name">Download</a> BOUTTON POUR TELECHARGER FICHIER
+----------------------------------------------------------------
+
+A HRFEF # = LIEN POUR REMONTER EN HAUT DE LA PAGE 
+ -----------------------------------------------------------------------------
+
+ GIT ADD .
+ GIT COMMIT -M "ICI JINSCRI LE MESSAGE QUE JE VEUX, PAR EXEMPLE (mise a jour projet)
+ GIT PUSH
+
+ CE SONT LES COMMANDES POUR METTRE UN PROJET RELIé A GITHUB
+
+ ---------------------------------------------------------------------------
