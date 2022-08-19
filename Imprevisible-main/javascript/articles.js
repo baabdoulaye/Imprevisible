@@ -8,7 +8,7 @@ axios.get("https://api-imprevisible.herokuapp.com/api/articles").then((res) => {
         <p id="h24">
             ${article.content}
             <br>
-            <a href="${article.url}" target="_blank">insomniac.games/marvels-spider-man-2</a>
+            <a href="${article.url}" target="_blank">${article.url}</a>
         </p>
         `;
     })
