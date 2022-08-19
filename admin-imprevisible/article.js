@@ -3,10 +3,12 @@ const contentArticlesHTML = document.querySelector(".content-articles");
 const form = document.querySelector("#form");
 let articleSelected = null;
 const getArticles = () => {
-  axios.get("http://localhost:3001/api/articles").then((res) => {
-    articles = res.data;
-    displayArticles();
-  });
+  axios
+    .get("https://api-imprevisible.herokuapp.com/api/articles")
+    .then((res) => {
+      articles = res.data;
+      displayArticles();
+    });
 };
 
 const displayArticles = () => {
@@ -33,7 +35,9 @@ const displayArticles = () => {
 const removeArticle = (article_id) => {
   if (window.confirm("Etes vous sur de vouloir supprimer cette article ?")) {
     axios
-      .delete(`http://localhost:3001/api/articles/${article_id}`)
+      .delete(
+        `https://api-imprevisible.herokuapp.com/api/articles/${article_id}`
+      )
       .then(() => {
         articles = articles.filter((article) => {
           return article._id !== article_id;
@@ -61,7 +65,7 @@ const save = () => {
 
   if (articleSelected === null) {
     axios
-      .post("http://localhost:3001/api/articles", {
+      .post("https://api-imprevisible.herokuapp.com/api/articles", {
         title,
         content,
         url,
@@ -82,7 +86,8 @@ const save = () => {
     articleSelected.date = date;
     axios
       .put(
-        "http://localhost:3001/api/articles/" + articleSelected._id,
+        "https://api-imprevisible.herokuapp.com/api/articles/" +
+          articleSelected._id,
         articleSelected
       )
       .then(() => {

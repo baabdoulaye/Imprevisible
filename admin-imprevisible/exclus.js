@@ -3,7 +3,7 @@ const contentExclusHTML = document.querySelector(".content-exclus");
 const form = document.querySelector("#form");
 let exclusSelected = null;
 const getExclus = () => {
-  axios.get("http://localhost:3001/api/exclus").then((res) => {
+  axios.get("https://api-imprevisible.herokuapp.com/api/exclus").then((res) => {
     exclus = res.data;
     displayExclus();
   });
@@ -36,12 +36,14 @@ const displayExclus = () => {
 
 const removeExclus = (exclus_id) => {
   if (window.confirm("Etes vous sur de vouloir supprimer cette exclus ?")) {
-    axios.delete(`http://localhost:3001/api/exclus/${exclus_id}`).then(() => {
-      exclus = exclus.filter((element) => {
-        return element._id !== exclus_id;
+    axios
+      .delete(`https://api-imprevisible.herokuapp.com/api/exclus/${exclus_id}`)
+      .then(() => {
+        exclus = exclus.filter((element) => {
+          return element._id !== exclus_id;
+        });
+        displayExclus();
       });
-      displayExclus();
-    });
   }
   return;
 };
@@ -74,7 +76,7 @@ const save = () => {
 
   if (exclusSelected === null) {
     axios
-      .post("http://localhost:3001/api/exclus", {
+      .post("https://api-imprevisible.herokuapp.com/api/exclus", {
         title,
         content,
         promo,
@@ -102,7 +104,8 @@ const save = () => {
 
     axios
       .put(
-        "http://localhost:3001/api/exclus/" + exclusSelected._id,
+        "https://api-imprevisible.herokuapp.com/api/exclus/" +
+          exclusSelected._id,
         exclusSelected
       )
       .then((res) => {

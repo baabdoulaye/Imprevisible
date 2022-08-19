@@ -1,11 +1,11 @@
-
-axios.get("http://localhost:3001/api/exclus").then((res) => {
-    document.querySelector(".content-exclus").innerHTML = res.data.map((exclus) => {
-        return `
+axios.get("https://api-imprevisible.herokuapp.com/api/exclus").then((res) => {
+  document.querySelector(".content-exclus").innerHTML = res.data
+    .map((exclus) => {
+      return `
             <section id="section2">
                 <h3 id="h3_articles">${exclus.title}</h3>
                 <div id="divkena">
-                    <img id="kena" src="${exclus.imageUrl}" alt="" />
+                    <img id="kena" src="./html/${exclus.imageUrl}" alt="" />
                 </div>
                 <p id="description_jeu_article">
                     ${exclus.content}
@@ -38,6 +38,7 @@ axios.get("http://localhost:3001/api/exclus").then((res) => {
             <br/>
             <br/>
             <br/>
-        `
-    }).join("")
-})
+        `;
+    })
+    .join("");
+});
