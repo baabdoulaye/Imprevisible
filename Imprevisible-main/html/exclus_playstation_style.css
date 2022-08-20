@@ -301,7 +301,7 @@ span {
   border-radius: 7%;
 }
 .carousel__face:nth-child(2) {
-  background-image: url("kratos1.jpg");
+  background-image: url("granturismo.jpg");
   transform: rotateY(40deg) translateZ(430px);
   border-radius: 7%;
 }
