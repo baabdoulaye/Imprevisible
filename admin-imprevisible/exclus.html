@@ -1,42 +1,48 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <head>
+    <link rel="icon" href="./html/logo a.jpg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+      integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script defer src="exclus.js"></script>
     <link href="style.css" rel="stylesheet" />
     <title>Administration imprevisible</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <a href="index.html">Articles</a>
-        <a href="exclus.html">Exxclus</a>
+      <h2>Administration imprevisible</h2>
+      <a href="index.html">Articles</a>
+      <a href="exclus.html">Exclus</a>
     </nav>
     <h1>Gestion des exclus</h1>
     <h2>Ajouter un nouvelle exclus</h2>
     <form id="form">
-        <p>Titre</p>
-        <input type="text" id="title">
-        <p>Content</p>
-        <textarea id="content" cols="30" rows="10"></textarea>
-        <p>Url image</p>
-        <input type="text" id="imageUrl">
-        <p>Promo</p>
-        <input type="text" id="promo">
-        <p>Prix</p>
-        <input type="number" id="price">
-        <p>Url amazon</p>
-        <input type="text" id="amazon">
-        <p>Url fnac</p>
-        <input type="text" id="fnac">
-        <p>Url micromania</p>
-        <input type="text" id="micromania">
-        <button type="submit">Enregistrer</button>
+      <p>Titre</p>
+      <input type="text" id="title" />
+      <p>Content</p>
+      <textarea id="content" cols="30" rows="10"></textarea>
+      <p>Url image</p>
+      <input type="text" id="imageUrl" />
+      <p>Promo</p>
+      <input type="text" id="promo" />
+      <p>Prix</p>
+      <input type="number" id="price" />
+      <p>Url amazon</p>
+      <input type="text" id="amazon" />
+      <p>Url fnac</p>
+      <input type="text" id="fnac" />
+      <p>Url micromania</p>
+      <input type="text" id="micromania" />
+      <button type="submit">Enregistrer</button>
     </form>
     <h2>Mes exclus</h2>
-    <div class="content-exclus">
-        
-    </div>
-</body>
+    <div class="content-exclus"></div>
+  </body>
 </html>
