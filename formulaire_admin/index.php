@@ -1,4 +1,9 @@
-<html lang="en">
+<?php
+//on demarre une session
+session_start() ;
+//ensuite on affiche le contenu de la variable session
+?>
+<html lang="fr">
   <head>
     <link rel="icon" href=".Imprevisible-main/html/logo a.jpg" />
     <meta charset="UTF-8" />
@@ -11,7 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script defer src="exclus.js"></script>
+    <script defer src="article.js"></script>
     <link href="style.css" rel="stylesheet" />
     <title>Administration imprevisible</title>
   </head>
@@ -21,28 +26,20 @@
       <a href="index.html">Articles</a>
       <a href="exclus.html">Exclus</a>
     </nav>
-    <h1>Gestion des exclus</h1>
-    <h2>Ajouter une nouvelle exclu</h2>
+    <h1>Gestion des articles</h1>
+    <h2>Ajouter un nouvelle article</h2>
     <form id="form">
       <p>Titre</p>
       <input type="text" id="title" />
       <p>Content</p>
       <textarea id="content" cols="30" rows="10"></textarea>
-      <p>Url image</p>
-      <input type="text" id="imageUrl" />
-      <p>Promo</p>
-      <input type="text" id="promo" />
-      <p>Prix</p>
-      <input type="number" id="price" />
-      <p>Url amazon</p>
-      <input type="text" id="amazon" />
-      <p>Url fnac</p>
-      <input type="text" id="fnac" />
-      <p>Url micromania</p>
-      <input type="text" id="micromania" />
+      <p>Url</p>
+      <input type="text" id="url" />
+      <p>Date</p>
+      <input type="text" id="date" />
       <button type="submit">Enregistrer</button>
     </form>
-    <h2>Mes exclus</h2>
-    <div class="content-exclus"></div>
+    <h2>Mes articles</h2>
+    <div class="content-articles"></div>
   </body>
 </html>

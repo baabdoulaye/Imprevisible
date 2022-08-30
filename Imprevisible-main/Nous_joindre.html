@@ -72,28 +72,28 @@
       <h2 id="j">Remplissez le formulaire ci-dessous, nos équipes vous répondront au plus vite.</h2>
       <br>
       <div data-aos="fade-up" data-aos-duration="1000" class="form-style-5">
-        <form>
+        <form name="contact" action="formulaire_valide.html" method="post" data-netlify="true">
           <fieldset>
             <legend><span class="number">1</span>Informations personnelles</legend>
-            <input type="text" name="field1" placeholder="Nom*" required minlength="2">
-            <input type="email" name="field2" placeholder="Email *" required>
-            <textarea name="field3" placeholder="A propos de vous" maxlength="300"></textarea>
+            <input type="text" name="Nom et prenom" placeholder="Nom et prenom*" required minlength="2">
+            <input type="email" name="Email" placeholder="Email *" required>
+            <textarea name="A propos de vous" placeholder="A propos de vous" maxlength="300"></textarea>
             <label for="job">Poste recherché:</label>
             <select id="job" name="field4">
               <optgroup label="Postes">
-                <option value="fishkeeping">Rédacteur en chef</option>
-                <option value="reading">Testeur</option>
-                <option value="boxing">Secrétaire</option>
-                <option value="debate">Reporter</option>
-                <option value="gaming">Conseiller</option>
-                <option value="snooker">Community Manager</option>
-                <option value="other_indoor">Autre</option>
+                <option value="Rédacteur en chef">Rédacteur en chef</option>
+                <option value="Testeur">Testeur</option>
+                <option value="Secrétaire">Secrétaire</option>
+                <option value="Reporter">Reporter</option>
+                <option value="Conseiller">Conseiller</option>
+                <option value="Community Manager">Community Manager</option>
+                <option value="Autre">Autre</option>
               </optgroup>
         </select>      
         </fieldset>
         <fieldset>
         <legend><span class="number">2</span>Informations complémentaires</legend>
-        <textarea name="field3" placeholder="Ecrivez ici votre message" required maxlength="300"></textarea>
+        <textarea name="Message" placeholder="Ecrivez ici votre message" required maxlength="300"></textarea>
       </fieldset>
       <input type="submit" value="Valider" />
     </form>
