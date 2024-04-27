@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+  font-size: 50px;
+}
+#p_galerie {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.div_p {
+  background-image: linear-gradient(to right, black, purple);
+  border-radius: 30px;
+  border: solid 2px rgb(0, 32, 211);
+  padding: 20px;
+  margin: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
+
+.gallery-item {
+  margin: 10px;
+  width: 300px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.gallery-item img {
+  width: 100%;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+.gallery-item img:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  transition: 0.7s;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.7s; /* Add a transition for the background-color */
+}
+.modal-content {
+  margin: 15% auto;
+  display: block;
+  transition: 0.7s;
+  width: 80%;
+  max-width: 700px;
+}
+
+.close,
+.prev,
+.next {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+}
+
+.close {
+  right: 15px;
+  top: 15px;
+  transition: 0.3s;
+}
+
+.prev {
+  left: 15px;
+  transition: 0.3s;
+}
+
+.next {
+  right: 15px;
+  transition: 0.3s;
+}
+.next:hover,
+.prev:hover,
+.close:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 310px) {
+  #p_galerie {
+    font-size: 11px;
+  }
+}

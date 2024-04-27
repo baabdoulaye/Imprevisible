@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  margin-top: 50px;
+}
+h2 {
+  color: white;
+}
+p {
+  color: white;
+}
+#p_a_propos {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  font-size: 13px;
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#div_a_propos {
+  background-image: linear-gradient(to right, black, purple);
+  border-radius: 30px;
+  padding: 20px;
+  border: solid 2px rgb(0, 32, 211);
+  margin: 30px;
+}
+#h2_principal {
+  color: white;
+  padding: 10px;
+  /* font-weight: 800; */
+  font-size: 20px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#btn_politique {
+  background-color: purple;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+  transition: 0.7s;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+#btn_politique:hover {
+  transform: scale(1.1);
+  color: white;
+}
+.section_presentation {
+  background-image: linear-gradient(to right, black, rgb(0, 60, 255));
+  border-radius: 30px;
+  display: flex;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0 15px 40px blanchedalmond;
+  width: 96%;
+  align-items: center;
+  text-align: center;
+  border: solid 2px rgb(255, 255, 255);
+  height: 500px;
+}
+
+.text_presentation h2 {
+  margin: 40px 20px 40px 20px;
+  font-size: 30px;
+  /* margin: 40px; */
+  font-weight: 500;
+}
+.text_presentation p {
+  margin: 40px 20px 40px 20px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.text_presentation {
+  margin: 40px 20px 40px 20px;
+  font-size: 15px;
+  /* margin: 40px; */
+  width: 40%;
+}
+.img_presentation {
+  border-radius: 40px;
+  background-image: url("/Imprevisible/img/screen_page_accueil.webp");
+  width: 60%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+@media screen and (max-width: 970px) {
+  .section_presentation {
+    flex-direction: column;
+    height: 700px;
+  }
+  .img_presentation {
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .text_presentation {
+    width: 100%;
+    text-wrap: pretty;
+    overflow-wrap: break-word;
+    hyphens: manual;
+    margin: 30px;
+    text-align: center;
+  }
+  hr {
+    width: 80%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  font-family: "fredoka one", cursive;
+  padding: 0;
+}
+/* le footer commence ici */
+footer {
+  width: 100%;
+  height: 350px;
+  background-image: linear-gradient(to right, blue, purple);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  bottom: 0;
+  justify-content: space-evenly;
+}
+footer h4 {
+  font-family: "fredoka one", cursive;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+#menu_footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  color: white;
+}
+#menu_footer a {
+  color: white;
+}
+#menu_footer a:hover {
+  color: orange;
+}
+
+#copyright {
+  position: absolute;
+  margin-top: 330px;
+  color: WHITE;
+  font-size: 12px;
+}
+#footer_logos a i {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  color: white;
+}
+#footer_logos {
+  margin-top: 70px;
+}
+#politique {
+  position: absolute;
+  margin-top: 330px;
+  color: WHITE;
+  font-size: 12px;
+  left: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media (max-width: 420px) {
+  #menu_footer {
+    display: none;
+  }
+  #politique {
+    margin-top: 300px;
+  }
+}
+@media (max-width: 450px) {
+  footer h4 {
+    font-size: 10px;
+  }
+  #footer_logos img {
+    width: 30px;
+  }
+}
+@media (max-width: 630px) {
+  #copyright {
+    right: 0;
+    font-size: 8px;
+    margin-right: 30px;
+    margin-top: 333px;
+  }
+}
+
+/* le footer se termine ici */
