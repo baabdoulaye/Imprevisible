@@ -13,9 +13,9 @@ include_once 'header.php';
 
 <body>
     <main>
-        <h1 id="h1_galerie">Galerie</h1>
+        <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" id="h1_galerie">Galerie</h1>
         <hr style="width: 30%; margin:auto">
-        <div class="div_p">
+        <div data-sal="slide-up" data-sal-easing="ease-out-sine" data-sal-duration="1000" class="div_p">
             <p id="p_galerie">Retrouvez ici une partie des captures prises par notre équipe durant les différents lives et tests.
                 <br>
                 <br>
@@ -107,6 +107,15 @@ include_once 'header.php';
     nextBtn.addEventListener('click', () => {
         currentImageIndex = (currentImageIndex + 1) % galleryItems.length;
         modalImg.src = galleryItems[currentImageIndex].querySelector('img').src;
+    });
+
+    // animation des images s'affichant une apres l'autre
+    anime({
+        targets: '.gallery-item',
+        opacity: [0, 1],
+        delay: anime.stagger(200, {
+            start: 300
+        }) // delay starts at 500ms then increase by 100ms for each elements.
     });
 </script>
 

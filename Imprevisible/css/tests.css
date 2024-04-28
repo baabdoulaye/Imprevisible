@@ -80,10 +80,6 @@ video {
     margin: 30px;
     text-align: center;
   }
-  hr {
-    width: 80%;
-    margin: auto;
-  }
 }
 
 .section_gallerie {
@@ -129,11 +125,6 @@ video {
   .section_gallerie {
     flex-direction: column;
     /* height: 700px; */
-  }
-
-  hr {
-    width: 80%;
-    margin: auto;
   }
   .text_gallerie {
     width: 100%;

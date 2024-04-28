@@ -13,9 +13,9 @@ include_once 'header.php';
 
 <body>
     <main>
-        <h1>Nos Tests</h1>
-        <hr style="width: 30%; margin:auto; margin-bottom: 30px">
-        <section class="section_tests">
+        <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" id="">Nos Tests</h1>
+        <hr style=" width: 30%; margin:auto; margin-bottom: 30px">
+        <section data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" class="section_tests">
             <div class="video_tests">
                 <video alt="video playstation introductive - Imprevisible studios" id="video_accueil" autoplay muted loop src="/Imprevisible/videos/video_tests720p.mp4"></video>
             </div>
@@ -30,8 +30,8 @@ include_once 'header.php';
             </div>
         </section>
     </main>
-    <section class="section_gallerie">
-        <div class="text_gallerie">
+    <section data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" class="section_gallerie">
+        <div data-sal="fade" class="text_gallerie">
             <h2>Nos derniers tests</h2>
             <hr>
             <p>

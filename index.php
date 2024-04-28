@@ -17,7 +17,7 @@ include_once 'Imprevisible/php/header.php';
             <video alt="video playstation introductive - Imprevisible studios" id="video_accueil" autoplay muted loop src="Imprevisible/videos/PlayStation_opening_video_accueil.mp4"></video>
         </div>
         <section>
-            <div data-sal="fade" data-sal-easing="ease-out-sine" id="" class="titre">
+            <div data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" id="" class="titre">
                 <img id="logo_accueil" src="/Imprevisible/img/logo favicon arrondi.png" alt="logo">
                 <h1>Imprevisible</h1>
             </div>
@@ -28,11 +28,11 @@ include_once 'Imprevisible/php/header.php';
             Retrouvez-nous tous les vendredis en live afin de débriefer concernant
             les dernières nouvelles et sorties !
         </p>
-        <a data-sal="fade" data-sal-duration="2900" data-sal-easing="ease-out-sine" href="#"><button id="btn_nouveautes">Nos nouveautés</button></a>
+        <a data-sal="fade" data-sal-duration="2900" data-sal-easing="ease-out-sine" href="Imprevisible/php/nouveautes.php"><button id="btn_nouveautes">Nos nouveautés</button></a>
     </main>
-    <section>
+    <section data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine">
         <h2 id="nos_dernieres_actus">Découvrez Horizon Forbidden West</h2>
-        <div data-sal="fade" data-sal-easing="ease-out-sine" id="divsection">
+        <div id="divsection">
             <p id="p_1"> Horizon Forbidden West
                 débarque enfin sur vos consoles le 18 février !
                 Horizon Forbidden West est un jeu vidéo
@@ -77,7 +77,7 @@ include_once 'Imprevisible/php/header.php';
             </div>
         </div>
     </div>
-    <section data-sal="slide-up" data-sal-duration="1500" data-sal-easing="ease-out-sine" class="section_uncharted">
+    <section data-sal="fade" data-sal-duration="1000" data-sal-easing="ease-out-sine" class="section_uncharted">
         <div class="text_uncharted">
             <h2>Uncharted Legacy of Thieves Collection</h2>
             <hr>

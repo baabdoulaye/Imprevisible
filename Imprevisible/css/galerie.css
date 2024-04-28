@@ -39,6 +39,7 @@ h1 {
 .gallery-item {
   margin: 10px;
   width: 300px;
+  transition: 0.7s;
   cursor: pointer;
   overflow: hidden;
   border-radius: 20px;

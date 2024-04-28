@@ -11,7 +11,8 @@
     <!-- police fredoka one -->
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Shrikhand&display=swap" rel="stylesheet">
     <!-- police fredoka one -->
-    <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
+    <link rel="stylesheet" href="/node_modules/sal.js/dist/sal.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 
 <body>
@@ -58,10 +59,7 @@
             toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
         }
     </script>
-    <script src="./node_modules/sal.js/dist/sal.js"></script>
-    <script>
-        sal();
-    </script>
+    <script src="/node_modules/sal.js/dist/sal.js"></script>
 </body>
 
 </html>

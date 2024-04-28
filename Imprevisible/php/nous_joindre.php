@@ -13,16 +13,16 @@ include_once 'header.php';
 
 <body>
     <main>
-        <h1>Nous joindre</h1>
+        <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" id="">Nous joindre</h1>
         <hr style="width: 40%; margin:auto;">
-        <div id="div_nous_joindre">
+        <div data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" id="div_nous_joindre">
             <p id="p_1">Nos équipes sont disponibles sur les réseaux sociaux ainsi que par mail</p>
             <p>
                 Remplissez le formulaire ci-dessous, nos équipes vous répondront au plus vite.
             </p>
         </div>
     </main>
-    <section class="section_reseaux_sociaux">
+    <section data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" class="section_reseaux_sociaux">
         <div class="text_reseaux_sociaux">
             <h2>Nos réseaux sociaux</h2>
             <hr>
@@ -44,7 +44,7 @@ include_once 'header.php';
         <div class="img_reseaux_sociaux">
         </div>
     </section>
-    <div class="container">
+    <div data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" class="container">
         <div class="left">
         </div>
         <div class="right">

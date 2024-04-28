@@ -12,11 +12,11 @@ include_once 'header.php';
 </head>
 
 <body>
-    <main>
+    <main data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" id="">
         <h1>Politique de confidentialité</h1>
     </main>
     <section>
-        <h2>Introduction</h2>
+        <h2 data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine">Introduction</h2>
 
         <HR>
         </HR>

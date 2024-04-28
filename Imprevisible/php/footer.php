@@ -13,12 +13,12 @@
     <!-- font awesome -->
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Shrikhand&display=swap" rel="stylesheet" />
     <!-- google fonts -->
-    <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
+    <link rel="stylesheet" href="/node_modules/sal.js/dist/sal.css">
 </head>
 
 <body>
     <!-- début du footer -->
-    <footer>
+    <footer id="">
         <div>
             <img style="
             margin-top: 40px;
@@ -52,7 +52,7 @@
     </footer>
 
     <!-- fin du footer  -->
-    <script src="./node_modules/sal.js/dist/sal.js"></script>
+    <script src="/node_modules/sal.js/dist/sal.js"></script>
     <script>
         sal();
     </script>

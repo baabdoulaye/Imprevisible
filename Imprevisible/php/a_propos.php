@@ -13,9 +13,9 @@ include_once 'header.php';
 
 <body>
     <main>
-        <h1 id="h1_galerie">Qui sommes nous</h1>
+        <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine">Qui sommes nous</h1>
         <hr style="width: 40%; margin:auto;">
-        <div id="div_a_propos">
+        <div data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" id="div_a_propos">
             <p id="h2_principal">Imprévisible est un média d'information relatant les dernières actus et nouveautés du monde des jeux vidéos</p>
             <p id="p_a_propos">
                 Retrouvez-nous tous les vendredis en live afin de débriefer concernant
@@ -24,7 +24,7 @@ include_once 'header.php';
         </div>
     </main>
 
-    <section class="section_presentation">
+    <section data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" class="section_presentation">
         <div class="text_presentation">
             <h2>Le Studio</h2>
             <hr>
