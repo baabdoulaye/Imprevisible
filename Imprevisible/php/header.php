@@ -46,6 +46,17 @@
             <li><a href="/Imprevisible/php/a_propos.php">A propos</a></li>
             <li><a href="#" class="action_btn">Connexion / Inscription</a></li>
         </div>
+
+        <!-- modal inscription et connexion -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="choix">
+                    <a href="/Imprevisible/php/connexion.php" class="btn connexion">Connexion</a>
+                    <a href="/Imprevisible/php/inscription.php" class="btn inscription">Inscription</a>
+                </div>
+            </div>
+        </div>
     </header>
     <script>
         const toggleBtn = document.querySelector('.toggle_btn')
@@ -58,6 +69,23 @@
 
             toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
         }
+
+        // modal inscription et connexion
+        // Obtenir les éléments du DOM
+        const modal = document.getElementById('modal');
+        const btnAction = document.querySelector('.action_btn');
+        const spanClose = document.querySelector('.close');
+        const btnConnexion = document.querySelector('.connexion');
+        const btnInscription = document.querySelector('.inscription');
+
+        // Ouvrir le modal
+        btnAction.addEventListener('click', function() {
+            modal.style.display = 'block';
+        });
+        // Fermer le modal
+        spanClose.addEventListener('click', function() {
+            modal.style.display = 'none';
+        })
     </script>
     <script src="/node_modules/sal.js/dist/sal.js"></script>
 </body>
