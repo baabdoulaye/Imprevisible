@@ -67,6 +67,7 @@
 }
 .formBox p {
   margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .formBox h2 {
   margin-top: 20px;
@@ -148,4 +149,11 @@ textarea {
   .title h2 {
     color: white;
   }
+}
+#deja_compte {
+  color: rgb(30, 76, 228);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#deja_compte:hover {
+  text-decoration: underline;
 }

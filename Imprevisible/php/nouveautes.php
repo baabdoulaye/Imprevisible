@@ -13,9 +13,9 @@ include_once 'header.php';
 
 <body>
     <main>
-        <h1>Nouveautés</h1>
+        <h1 data-sal="slide-up" data-sal-duration="2000">Nouveautés</h1>
         <hr style="width: 30%; margin:auto">
-        <div class="div_p">
+        <div data-sal="slide-up" data-sal-duration="2000" class="div_p">
             <p id="p_nouveautes">Retrouvez toute l'actu du jeu vidéo concernant les dernières sorties !
                 <!-- <br>
                 <br>
@@ -23,7 +23,7 @@ include_once 'header.php';
             </p>
         </div>
     </main>
-    <h2>Les derniers articles</h2>
+    <h2 data-sal="slide-up" data-sal-duration="2000">Les derniers articles</h2>
     <hr style="width: 22%; margin:auto; margin-bottom: 30px; margin-top: 30px">
     <!-- articles -->
 

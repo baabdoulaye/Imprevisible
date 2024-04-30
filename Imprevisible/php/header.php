@@ -30,6 +30,14 @@
                 <li><a href="/Imprevisible/php/Nous_joindre.php">Nous Joindre</a></li>
                 <li><a href="/Imprevisible/php/a_propos.php">A propos</a></li>
             </ul>
+            <button style="  display: none;
+             background-color: purple;
+                            padding: 0.5rem 1rem;
+                            font-size: 0.8rem;
+                            border-radius: 50px;
+                            border: none;" class=".deco_btn">
+                <a href="#">Déconnexion</a>
+            </button>
             <div data-sal="slide-up" data-sal-duration="2500" id="login_btn">
                 <i class="fa-solid fa-user"></i>
                 <a href="#" class="action_btn"> Connexion / Inscription</a>
@@ -44,7 +52,7 @@
             <li><a href="/Imprevisible/php/galerie.php">Galerie</a></li>
             <li><a href="/Imprevisible/php/Nous_joindre.php">Nous Joindre</a></li>
             <li><a href="/Imprevisible/php/a_propos.php">A propos</a></li>
-            <li><a href="#" class="action_btn">Connexion / Inscription</a></li>
+            <li><a href="/Imprevisible/php/connexion.php" class="action_btn">Connexion / Inscription</a></li>
         </div>
 
         <!-- modal inscription et connexion -->
@@ -73,7 +81,7 @@
         // modal inscription et connexion
         // Obtenir les éléments du DOM
         const modal = document.getElementById('modal');
-        const btnAction = document.querySelector('.action_btn');
+        const btnAction = document.querySelector('#login_btn');
         const spanClose = document.querySelector('.close');
         const btnConnexion = document.querySelector('.connexion');
         const btnInscription = document.querySelector('.inscription');

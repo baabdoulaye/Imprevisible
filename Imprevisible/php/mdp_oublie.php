@@ -8,8 +8,8 @@ include_once 'header.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imprevisible - Connexion</title>
-    <link rel="stylesheet" href="/Imprevisible/css/connexion.css">
+    <title>Imprevisible - Mot de passe oublié</title>
+    <link rel="stylesheet" href="/Imprevisible/css/mdp_oublie.css">
 </head>
 
 <body>
@@ -19,19 +19,17 @@ include_once 'header.php';
         <div class="right">
             <div class="formBox">
                 <form method="post" action="send_email.php">
-                    <h2>Connexion</h2>
+                    <h2>Mot de passe oublié ?</h2>
                     <div>
-                        <p>Email</p>
+                        <p>Entrez votre adresse email</p>
+                        <p>Vous recevrez un lien pour modifier votre mot de passe</p>
+                        <br>
+                        <p style="color: black;">Email</p>
                         <input type="email" required name="email" placeholder="" id="email">
-                        <p>Mot de passe</p>
-                        <input type="password" required name="password" placeholder="" id="password">
                         <br>
                         <input type="submit" name="insert" id="bouton_valider" value="Valider">
                     </div>
-                    <div id="div_questions">
-                        <a id="mdp_oublie" href="mdp_oublie.php">Mot de passe oublié ?</a>
-                        <a id="pas_encore_de_compte" href="/Imprevisible/php/inscription.php">Pas encore de compte ?</a>
-                    </div>
+                    <a id="mdp_oublie" href="connexion.php">Votre mot de passe vous est revenu à l'esprit ?</a>
                 </form>
             </div>
         </div>
