@@ -71,16 +71,16 @@ include_once 'header.php';
         </div>
         <!-- Ajoutez d'autres éléments d'image de la galerie ici -->
     </div>
-    <div class="modal">
+    <div class="galerie-modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="modal-img">
+        <img class="content-img" id="modal-img">
         <span class="prev">&#10094;</span>
         <span class="next">&#10095;</span>
     </div>
 </body>
 <script>
     const galleryItems = document.querySelectorAll('.gallery-item');
-    const modal = document.querySelector('.modal');
+    const modal = document.querySelector('.galerie-modal'); // Mettre à jour le sélecteur
     const modalImg = document.getElementById('modal-img');
     const closeBtn = document.querySelector('.close');
     const prevBtn = document.querySelector('.prev');

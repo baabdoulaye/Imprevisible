@@ -56,9 +56,10 @@
         </div>
 
         <!-- modal inscription et connexion -->
-        <div id="modal" class="modal">
-            <div class="modal-content">
+        <div id="modal-container" class="modal-container">
+            <div class="modal-contentt">
                 <span class="close">&times;</span>
+                <img id="logo_modal" src="/Imprevisible/img/logo favicon arrondi.png" alt="">
                 <div class="choix">
                     <a href="/Imprevisible/php/connexion.php" class="btn connexion">Connexion</a>
                     <a href="/Imprevisible/php/inscription.php" class="btn inscription">Inscription</a>
@@ -80,7 +81,7 @@
 
         // modal inscription et connexion
         // Obtenir les éléments du DOM
-        const modal = document.getElementById('modal');
+        const modal = document.getElementById('modal-container');
         const btnAction = document.querySelector('#login_btn');
         const spanClose = document.querySelector('.close');
         const btnConnexion = document.querySelector('.connexion');

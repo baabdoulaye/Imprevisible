@@ -177,7 +177,7 @@ header {
 }
 
 /* Style du modal */
-.modal {
+.modal-container {
   display: none; /* Le modal est caché par défaut */
   position: fixed; /* Le modal est positionné de manière fixe */
   z-index: 1; /* Le modal est au-dessus de tous les autres éléments */
@@ -191,7 +191,7 @@ header {
 }
 
 /* Contenu du modal */
-.modal-content {
+.modal-contentt {
   border-radius: 30px;
   box-shadow: 0 15px 40px rgb(255, 255, 255);
   animation: smooth 0.5s;
@@ -255,10 +255,13 @@ header {
   .choix {
     flex-direction: column;
   }
-  .modal {
+  .modal-container {
     margin: auto;
     left: 0;
     right: 0;
     width: calc(100% - 20px); /* Adjust for horizontal padding if needed */
   }
+}
+#logo_modal {
+  width: 30px;
 }
