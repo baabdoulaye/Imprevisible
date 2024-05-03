@@ -62,14 +62,14 @@ include_once 'header.php';
             </div>
             <div class="grid_item">
                 <a target="_blank" href="https://youtu.be/0I6JzCghs8w?si=BKcFT_-Vb6tzrr36"><img src="/Imprevisible/img/tlou1.webp" alt="Image 2"></a>
-                <p>The Last of Us 2</p>
+                <p>The Last of Us Part II</p>
             </div>
             <div class="grid_item">
                 <a target="_blank" href="https://youtu.be/JwSf7grVUXU?si=3PPCP3CyEVG2zrlH"><img src="/Imprevisible/img/unchartedd_legacyofthieves.webp" alt="Image 2"></a>
                 <p>Uncharted Legacy of Thieves</p>
             </div>
             <div class="grid_item">
-                <a target="_blank" href=""><img src="/Imprevisible/img/unknown9.webp" alt="Image 2"></a>
+                <a target="_blank" href="https://youtu.be/RUAf3MXSdm4?si=acE1UshFa2Y72Cer"><img src="/Imprevisible/img/unknown9.webp" alt="Image 2"></a>
                 <p>Unknown 9</p>
             </div>
             <!-- Ajoutez les autres éléments de votre grille de la même manière -->
