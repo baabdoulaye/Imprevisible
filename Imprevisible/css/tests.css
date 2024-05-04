@@ -86,6 +86,7 @@ video {
   background-image: linear-gradient(to right, black, rgb(0, 60, 255));
   border-radius: 30px;
   display: flex;
+  animation: fade-right 1.5s;
   padding: 20px;
   margin: 20px;
   width: 95%;
@@ -161,6 +162,19 @@ video {
 .grid_item img:hover {
   transform: scale(1.05);
 }
+
+@keyframes fade-right {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .grid_container {
     justify-content: center;

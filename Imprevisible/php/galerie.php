@@ -72,7 +72,7 @@ include_once 'header.php';
         <!-- Ajoutez d'autres éléments d'image de la galerie ici -->
     </div>
     <div class="galerie-modal">
-        <span class="close">&times;</span>
+        <span class="close_">&times;</span>
         <img class="content-img" id="modal-img">
         <span class="prev">&#10094;</span>
         <span class="next">&#10095;</span>
@@ -80,9 +80,9 @@ include_once 'header.php';
 </body>
 <script>
     const galleryItems = document.querySelectorAll('.gallery-item');
-    const modal = document.querySelector('.galerie-modal'); // Mettre à jour le sélecteur
+    const modall = document.querySelector('.galerie-modal'); // Mettre à jour le sélecteur
     const modalImg = document.getElementById('modal-img');
-    const closeBtn = document.querySelector('.close');
+    const closeBtn = document.querySelector('.close_');
     const prevBtn = document.querySelector('.prev');
     const nextBtn = document.querySelector('.next');
 
@@ -90,13 +90,13 @@ include_once 'header.php';
 
     galleryItems.forEach((item, index) => {
         item.addEventListener('click', () => {
-            modal.style.display = 'block';
+            modall.style.display = 'block';
             modalImg.src = item.querySelector('img').src;
             currentImageIndex = index;
         });
     });
     closeBtn.addEventListener('click', () => {
-        modal.style.display = 'none';
+        modall.style.display = 'none';
     });
 
     prevBtn.addEventListener('click', () => {

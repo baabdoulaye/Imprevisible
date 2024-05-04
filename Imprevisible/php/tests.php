@@ -30,7 +30,7 @@ include_once 'header.php';
             </div>
         </section>
     </main>
-    <section data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease-out-sine" class="section_gallerie">
+    <section class="section_gallerie">
         <div data-sal="fade" class="text_gallerie">
             <h2>Nos derniers tests</h2>
             <hr>

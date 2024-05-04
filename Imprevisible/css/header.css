@@ -220,7 +220,7 @@ header {
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: rgb(57, 57, 57);
   text-decoration: none;
   cursor: pointer;
 }
