@@ -132,7 +132,9 @@ p {
 }
 .formBox p {
   margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
 .formBox h2 {
   margin-top: 20px;
   margin-bottom: 40px;

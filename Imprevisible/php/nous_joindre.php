@@ -42,7 +42,7 @@ include_once 'header.php';
       <h2>Nos réseaux sociaux</h2>
       <hr />
       <p>
-        Retrouvez-nous tous les en live afin de débriefer concernant les
+        Retrouvez-nous tous les vendredis en live afin de débriefer concernant les
         dernières nouvelles et sorties !
       </p>
       <p>
